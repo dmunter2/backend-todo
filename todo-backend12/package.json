@@ -1,18 +1,10 @@
 {
-  "name": "server_p1",
+  "name": "knex",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "nodemon index.js",
-    "start": "node index.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "bcryptjs": "^2.4.3",
+    "bcrypt": "^3.0.7",
     "connect-session-knex": "^1.5.0",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
@@ -25,8 +17,17 @@
     "nodemon": "^2.0.2",
     "sqlite3": "^4.1.1"
   },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js",
+    "start": "node index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dmunter2/todo_backend.git"
-  }
+  },
+  "keywords": [],
+  "author": "",
+  "description": ""
 }
