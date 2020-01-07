@@ -21,7 +21,7 @@ function findList(id){
 }
 
 function findBy(id) {
-    return db('todo').select('title', 'description').where({users_id: id})
+    return db('todo').select('title', 'description').where({ users_id: id })
 }
 
 
