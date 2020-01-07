@@ -20,7 +20,7 @@ router.get('/', (req,res) => {
 
 router.get('/tasks', (req,res) => {
     const userID = req.decodedJwt.userid
-    Userdb.findById(userID)
+    Userdb.findBy(userID)
     .then(user => {
         res.status(201).json(user)
     })
